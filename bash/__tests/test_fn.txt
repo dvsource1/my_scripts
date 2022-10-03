@@ -1,0 +1,45 @@
+hiprint() {
+	hi0: "echo Hi"
+	hi1: "echo This"
+	hi2: "echo ii"
+	hi3: "echo my"
+	hi4: "echo matific"
+	hi5: "echo config"
+	hi6: "echo file"
+}
+
+hi0() {
+	$> "echo Hi"
+	echo Hi
+}
+
+hi1() {
+	$> "echo This"
+	echo This
+}
+
+hi2() {
+	$> "echo ii"
+	echo ii
+}
+
+hi3() {
+	$> "echo my"
+	echo my
+}
+
+hi4() {
+	$> "echo matific"
+	echo matific
+}
+
+hi5() {
+	$> "echo config"
+	echo config
+}
+
+hi6() {
+	$> "echo file"
+	echo file
+}
+

@@ -1,0 +1,38 @@
+fmprint() {
+	fm0: echo Hi
+	fm1: echo This
+	fm2: echo ii
+	fm3: echo my
+	fm4: echo matific
+	fm5: echo config
+	fm6: echo file
+}
+
+fm0() {
+	$> "echo Hi"
+	echo Hi
+}
+fm1() {
+	$> "echo This"
+	echo This
+}
+fm2() {
+	$> "echo ii"
+	echo ii
+}
+fm3() {
+	$> "echo my"
+	echo my
+}
+fm4() {
+	$> "echo matific"
+	echo matific
+}
+fm5() {
+	$> "echo config"
+	echo config
+}
+fm6() {
+	$> "echo file"
+	echo file
+}
